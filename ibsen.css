@@ -1,0 +1,28 @@
+.speech{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color:black
+}
+
+.direction{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:medium;
+    color:black;
+    background-color:azure;
+}
+
+.name:hover{
+    color: aquamarine;
+    text-shadow: 6px 7px 8px rgb(140, 120, 110) ;
+    border : 5em;
+}
+.direction:hover {
+    background-color: blue;
+    color:black
+}
+.hedda{
+    color: blueviolet;
+}
+.misstesman{
+    color:aqua
+}
