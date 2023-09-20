@@ -61,10 +61,13 @@ td{
 .hedda:hover{
     text-shadow: 2px 2px 1px red;
     border: 1px dotted red;
+    filter: blur(0.5px);
 }
 .misstesman:hover{
     text-shadow: 2px 2px 1px blue;
-    border:1px dotted blue
+    border:1px dotted blue;
+    filter: blur(0.5px);
+    
 }
 
 ul.navbar-horizontal {
