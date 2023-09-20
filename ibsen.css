@@ -66,3 +66,19 @@ td{
     text-shadow: 2px 2px 1px blue;
     border:1px dotted blue
 }
+
+ul.navbar-horizontal {
+    /* remove these */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    ul.navbar-horizontal li {
+    float:left; /* line up horizontally */
+    color:#7d0707;
+    background-color:rgb(142, 179, 185)
+    }
+    ul.navbar-horizontal a {
+    display:block;
+    padding:8px
+    }
