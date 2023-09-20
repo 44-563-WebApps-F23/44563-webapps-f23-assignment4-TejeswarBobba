@@ -28,18 +28,41 @@
 }
 
 table{
-    margin : 5px;
-    border-spacing: 1.5em 0.8em;
-    padding: 2em 1em;
-    border: 3px solid black;
-    text-align: left;
+    border-collapse: separate;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+table th{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-tr:nth-child(odd) {background-color:aqua;}
+table td{
+border: 1px solid orange;
+text-align: center;
+padding: 10px;
+border-radius: 10PX;
+}
 
+table tbody tr:nth-child(even){
+    background-color: rgb(184, 225, 200);
+}
 td{
     width: 1.6em;
     height: 1.6em;
     text-align: center;
     vertical-align: middle;
+}
+.hedda:hover{
+    text-shadow: 2px 2px 1px red;
+    border: 1px dotted red;
+}
+.misstesman:hover{
+    text-shadow: 2px 2px 1px blue;
+    border:1px dotted blue
 }
